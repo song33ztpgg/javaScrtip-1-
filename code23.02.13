@@ -1,7 +1,4 @@
-// sizes = [[60, 50], [30, 70], [60, 30], [80, 40]];
-// sizes = [[1, 2], [4, 3], [5, 6], [8, 7]];
-sizes = [[1, 2], [3, 4], [5, 6], [10, 10]];
-
+sizes = [[60, 50], [30, 70], [60, 30], [80, 40]];
 
 maxTemp = 0
 maxRow = 0;
@@ -22,23 +19,22 @@ for (let i = 0; i < 4; i++) {
     }
 }
 
+
 maxTemp = 0;
 maxTemp2 = 0;
-for (let i = 0; i < 3; i++) {
-    if (sizes[i][0] > maxTemp) {
-        maxTemp = sizes[i][0];
-        alert(maxTemp);
-    }
-}
-alert("======");
+
 for (let i = 0; i < 4; i++) {
-    if (sizes[0][i] > maxTemp2) {
-        maxTemp2 = sizes[0][i];
-        alert(maxTemp2);
+    if (sizes[i][0] >= maxTemp) {
+        maxTemp = sizes[i][0];
     }
 }
 
-alert("end")
-alert(maxTemp * maxTemp2);
 
+for (let i = 0; i < 4; i++) {
+    if (sizes[i][1] >= maxTemp2) {
+        maxTemp2 = sizes[i][1];
+    }
+}
+
+alert(maxTemp * maxTemp2);
 
