@@ -52,7 +52,7 @@
 
 다른 언어들처럼 데이터 타입을 다룬다면 장단점은 무엇이 있을까요?
 
-변수의 타입을 작성자가 쉽게 구분 할 수 있으며 이로 인해 실수를  줄일 수 있다.
+**C언어**의 경우 변수의 타입을 작성자가 쉽게 구분 할 수 있다.
 
 **파이썬**은 JS에 비하여 숫자형이 좀 더 세분화 되어있음. JS는 number만 가지지만 파이썬은 정수형(int) 실수형(float)로 구분﻿한다.
 
@@ -444,3 +444,5 @@ LexicalEnvironment의 내부에는 **environmentRecord**와 **outerEnvironment
 </aside>
 
 조원 1:
+
+[코어 자바스크립트](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=206513031)
